@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/colors-fonts.css">
+    <link rel="stylesheet" href="styles/midia-query.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="containerHeader">
+            <div class="TituloHeader">
+                <h1><strong>DEV</strong> <br> REACT</h1>
+                <h2>Bem-Vindo ao meu Portifólio</h2>
+            </div>
+            <div class="HeaderMSG">
+                <p>Olá, Me chamo Cauê, sou estudante de programação desde janeiro de 2023 e este é o lugar onde compartilho meu trabalho e exponho minhas ideias.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerMain">
+            <div class="mainTitle">
+                <h1>Skills:</h1>
+            </div>
+            <div class="maskCards">
+                <div class="mainCard">
+                    <div class="Card_Img">
+                        <img src="images/html.png" alt="html">
+                        <button class="botCard" id="buttonCard_1_id">DESCRIÇÃO</button>
+                    </div>
+                    <div class="Card_Title" id="Card_Title_1_id">
+                        <h2>HTML5</h2>
+                        <p>HTML5 é a versão atualizada da linguagem para criar conteúdo na web, trazendo novidades em áudio, vídeo e semântica para páginas mais acessíveis e interativas.</p>
+                    </div>
+                </div>
+                <div class="mainCard">
+                    <div class="Card_Img">
+                        <img src="images/css.png" alt="html">
+                        <button class="botCard" id="buttonCard_2_id">DESCRIÇÃO</button>
+                    </div>
+                    <div class="Card_Title" id="Card_Title_2_id">
+                        <h2>CSS3</h2>
+                        <p>CSS3 trouxe avanços cruciais para o design web, introduzindo recursos como flexbox, grid e animações para criar layouts responsivos e atraentes. Sua versatilidade melhora a experiência do usuário em diversos dispositivos.</p>
+                    </div>
+                </div>
+                <div class="mainCard">
+                    <div class="Card_Img">
+                        <img src="images/javascript.png" alt="html">
+                        <button class="botCard" id="buttonCard_3_id">DESCRIÇÃO</button>
+                    </div>
+                    <div class="Card_Title" id="Card_Title_3_id">
+                        <h2>JavaScript</h2>
+                        <p>JavaScript, vital na web moderna, possibilita interatividade e dinamismo. Desde simples funcionalidades até complexas aplicações, manipula elementos da página, responde a eventos do usuário e cria efeitos visuais. Essencial para apps web, permite comunicação assíncrona com servidores, garantindo robustez e responsividade.</p>
+                    </div>
+                </div>
+                <div class="mainCard">
+                    <div class="Card_Img">
+                        <img src="images/react.png" alt="html">
+                        <button class="botCard" id="buttonCard_4_id">DESCRIÇÃO</button>
+                    </div>
+                    <div class="Card_Title" id="Card_Title_4_id">
+                        <h2>React</h2>
+                        <p>React é uma biblioteca JavaScript para criar interfaces de usuário interativas e dinâmicas. Utiliza componentes reutilizáveis e uma abordagem eficiente para gerenciar o estado da aplicação, permitindo uma renderização otimizada baseada em uma árvore de elementos virtuais (Virtual DOM).</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="containerProjects">
+                <div class="projectsTitle">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="projectCard">
+                    <div class="projectImg" id="projectImgId">
+                        <picture>
+                            <source media="(min-width: 889px)" srcset="images/androidv4.jpeg" type="image/jpeg">
+                            <source media="(min-width: 500px)" srcset="images/androidv3.jpeg" type="image/jpeg">
+                            <img src="images/androidv2.jpeg" alt="html" id="projectImg_id">
+                        </picture>
+                    </div>
+                    <div class="iframeBoxClass" id="iframeBoxId">
+                        <iframe src="https://caue-lacerda.github.io/projeto-android-v2/" frameborder="0"  id="projectIframe"></iframe>
+                    </div>
+                    <div class="modeButtons">
+                        <button id="buttonIframe">Modo Site</button>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Projeto Android</h2>
+                        <p>Essa é a segunda versão do projeto, ela originou do CursoemVídeo do Gustavo Guanabara, essa é a versão melhorada do site original, nele utilizo todas as habilidades desenvolvidas no curso.</p>
+                        <div class="projectButtons">
+                            <button><a href="https://github.com/Caue-Lacerda/projeto-android-v2" target="_blank" rel="external"><span>#</span>Code</a></button>
+                            <button><a href="https://caue-lacerda.github.io/projeto-android-v2/" target="_blank" rel="external"><span>#</span>Web</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div class="projectImg" id="projectImgId_2">
+                        <picture>
+                            <source media="(min-width: 879px)" srcset="images/login2.jpeg" type="image/jpeg">
+                            <img src="images/login1.jpeg" alt="html" id="projectImg_id">
+                        </picture>
+                    </div>
+                    <div class="iframeBoxClass" id="iframeBoxId_2">
+                        <iframe src="https://caue-lacerda.github.io/projeto-login/" frameborder="0"  id="projectIframe"></iframe>
+                    </div>
+                    <div class="modeButtons">
+                        <button id="buttonIframe_2">Modo Site</button>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Projeto Login</h2>
+                        <p>Esse projeto visa a criação de uma tela de login simples mais adaptativa ao tamanho da tela. Desenvolvido durante o CursoemVídeo.</p>
+                        <div class="projectButtons">
+                            <button><a href="https://github.com/Caue-Lacerda/projeto-login" target="_blank" rel="external"><span>#</span>Code</a></button>
+                            <button><a href="https://caue-lacerda.github.io/projeto-login/" target="_blank" rel="external"><span>#</span>Web</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div class="projectImg" id="projectImgId_3">
+                        <picture>
+                            <source media="(min-width: 879px)" srcset="images/cordel2.jpeg" type="image/jpeg">
+                            <img src="images/cordel1.jpeg" alt="html" id="projectImg_id">
+                        </picture>
+                    </div>
+                    <div class="iframeBoxClass" id="iframeBoxId_3">
+                        <iframe src="https://caue-lacerda.github.io/projeto-cordel/" frameborder="0"  id="projectIframe"></iframe>
+                    </div>
+                    <div class="modeButtons">
+                        <button id="buttonIframe_3">Modo Site</button>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Projeto Cordel</h2>
+                        <p>Esse projeto tem como objetivo mostrar o comportamento de imagens de fundo em projeto.Desenvolvido durante o CursoemVídeo.</p>
+                        <div class="projectButtons">
+                            <button><a href="https://github.com/Caue-Lacerda/projeto-cordel" target="_blank" rel="external"><span>#</span>Code</a></button>
+                            <button><a href="https://caue-lacerda.github.io/projeto-cordel/" target="_blank" rel="external"><span>#</span>Web</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerLink">
+            <a href="https://caue-lacerda.github.io/"><img src="images/githubiocn.png" alt="GitHub" class="linkImg"></a>
+            <a href="https://caue-lacerda.github.io/"><img src="images/githubiocn.png" alt="GitHub" class="linkImg"></a>
+            <a href="https://caue-lacerda.github.io/"><img src="images/githubiocn.png" alt="GitHub" class="linkImg"></a>
+        </div>
+        <div class="footerCopyEmail">
+            <div id="linkToCopy">meuemail@gmail.com</div>
+            <div class="copy-success" id="successButton">Email Copiado!</div>
+            <button class="copy-button" id="copyButton">Email:example@gmail.com</button>
+        </div>
+        <div class="messageCopyright">
+            <p>Copyright©2023</p>
+        </div>
+    </footer>
+</body>
+</html>

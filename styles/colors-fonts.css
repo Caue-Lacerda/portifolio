@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --cinzaClaro: #d3d3d3;
+    --cinza: #808080;
+    --preto: #000000;
+    --branco: #ffffff;
+    --transparente: #00000000;
+    --sombra: #0000004d;
+    --corDeFundo:#141414;
+    --cor-celeste: #69C4DB;
+    --cor-celeste-t: #69C4DB6b;
+    --cor-azul-palido: #729EA8;
+    --cor-azul-escuro: #0E4857;
+    --cor-azul-escuro-t: #0E48576b;
+    --cor-cinza-azulado: #677275;
+    --cor-azul-escuro-2: #303F42;
+    --cor-escuro-ardosia: #302A33;
+    --cor-roxa: #583F66;
+    --cor-roxa-tp-1: #c2e4ff71;
+    --cor-violeta: #A406FF;
+    --cor-violeta-t: #A406FF6b;
+    --cor-roxo-escuro: #784099;
+    --cor-roxo-escuro-t: #7840991b;
+    --cor-roxo-profundo: #922DCC;
+
+    --CardHTML: #e44d26;
+    --CardHTML-t: #e44c266b;
+    --CardCSS: #379ad6;
+    --CardCSS-t: #3799d66b;
+    --CardJS: #f0db4f;
+    --CardJS-t: #f0db4f6b;
+    --CardRJS: #00d8ff;
+    --CardRJS-t: #00d8ff6b;
+
+    --font-titulo: 'Roboto Slab', serif;
+    --font-titulo-2: font-family: 'Patrick Hand', cursive;
+    --font-text:  'Roboto Mono', monospace;
+
+}

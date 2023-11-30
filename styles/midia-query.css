@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .maskCards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transition: 1s ease;
+    }
+
+    .modeButtons {display: block;}
+    .projectImg {display: block;}
+    .projectImgF {display: none;}
+    .iframeBoxClass {display: none;}
+    .iframeBoxClassA {display: block;}
+    #projectIframe {display: block;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body {background-color: var(--cor-celeste-t);}
+
+    .TituloHeader h1 {
+        font-size: 6em;
+        margin-top: 60px;
+    }
+
+    .TituloHeader h2 {
+        font-size: 1.23em;
+        margin-bottom: 60px;
+    }
+
+    .HeaderMSG p {font-size: 1em;}
+
+    .mainTitle h1 {
+        font-size: 2.5em;
+        border-width: 2.5px;
+    }
+
+    .Card_Img img {height: 200px;}
+    .botCard{font-size: 1.2em;}
+    .Card_Title h2 {font-size: 2.5em;}
+    .Card_Title p {font-size: 1.2em;}
+    .projectInfo h2 {font-size: 2em;}
+    .projectInfo p {font-size: 1em;}
+
+    main {
+        margin: auto;
+        background-color: var(--branco);
+    }
+
+    .maskCards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transition: 1s ease;
+    }
+
+    .modeButtons {display: block;}
+    .projectImg {display: block;}
+    .projectImgF {display: none;}
+    .iframeBoxClass {display: none;}
+    .iframeBoxClassA {display: block;}
+    #projectIframe {display: block;}
+}
+
+@media screen and (min-width: 993px) {
+    body {
+        background-color: var(--cor-celeste-t);
+    }
+
+    .TituloHeader h1 {
+        font-size: 6em;
+        margin-top: 80px;
+    }
+
+    .TituloHeader h2 {
+        font-size: 1.23em;
+        margin-bottom: 60px;
+    }
+
+    .HeaderMSG {
+        width: fit-content;
+        margin: 20px auto;
+        border-radius: 10px 20px;
+        box-shadow: 1.5px 1.5px 6px var(--preto);
+    }
+
+    .HeaderMSG p {font-size: 1em;}
+
+    .mainTitle h1 {
+        font-size: 2.5em;
+        border-width: 2.5px;
+    }
+
+    .Card_Img img {height: 200px;}
+    .botCard{font-size: 1.2em;}
+    .Card_Title h2 {font-size: 2.5em;}
+    .Card_Title p {font-size: 1.2em;}
+    .projectInfo h2 {font-size: 2em;}
+    .projectInfo p {font-size: 1em;}
+
+    main {
+        width: 930px;
+        margin: 30px auto;
+        padding: 10px 0px;
+        border-radius: 20px;
+        box-shadow: 1.5px 1.5px 6px var(--preto);
+        background-color: var(--branco);
+    }
+    .maskCards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transition: 1s ease;
+    }
+
+    .modeButtons {display: block;}
+    .projectImg {display: block;}
+    .projectImgF {display: none;}
+    .iframeBoxClass {display: none;}
+    .iframeBoxClassA {display: block;}
+    #projectIframe {display: block;}
+}
